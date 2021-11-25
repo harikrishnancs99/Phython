@@ -5,8 +5,9 @@ x4=int(input("Enter the mark of subject4:"))
 x5=int(input("Enter the mark of subject5:"))
 
 total = x1+x2+x3+x4+x5
-print
+print(f"Total mark is {total}\n")
 average = total/5
+print(f"Average is {average}\n")
 
 if average>80:
     print("A grade")
