@@ -1,9 +1,10 @@
 str=list(input("Enter a string:"))
 for i in str:
+    c=0
     if(i!=" "):
-        c=0
+    
         for j in range(0,len(str)):
             if(i==str[j]):
                 c=c+1
-                str[j]==" "
+                str[j]=" "
         print(i,"=",c)    
