@@ -10,6 +10,6 @@ def sum(n1,n2,n3):
 
 
 n1=int(input("Enter 1st number:"))
-n2=int(input("Enter 1st number:"))
-n3=int(input("Enter 1st number:"))
+n2=int(input("Enter 2st number:"))
+n3=int(input("Enter 3st number:"))
 sum(n1,n2,n3)
